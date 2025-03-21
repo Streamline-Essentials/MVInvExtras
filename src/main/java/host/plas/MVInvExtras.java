@@ -5,8 +5,8 @@ import host.plas.configs.MainConfig;
 import host.plas.events.MainListener;
 import lombok.Getter;
 import lombok.Setter;
-import net.streamline.api.modules.SimpleModule;
 import org.pf4j.PluginWrapper;
+import singularity.modules.SimpleModule;
 
 import java.util.ArrayList;
 import java.util.List;

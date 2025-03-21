@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'com.github.johnrengelman.shadow' version '7.1.2'
+    id 'io.freefair.lombok' version '8.10.2'
 }
 
 group properties['group']
@@ -32,10 +33,6 @@ repositories {
 dependencies {
     // Spigot API
     compileOnly 'org.spigotmc:spigot-api:1.20-R0.1-SNAPSHOT'
-
-//    // The Base
-//    compileOnly 'com.github.Server-Utilities:TheBase:master-SNAPSHOT'
-//    annotationProcessor 'com.github.Server-Utilities:TheBase:master-SNAPSHOT'
 
     // LuckPerms
     compileOnly 'net.luckperms:api:5.4'

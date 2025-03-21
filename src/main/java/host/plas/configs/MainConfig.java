@@ -9,7 +9,8 @@ import tv.quaint.storage.resources.flat.simple.SimpleConfiguration;
 import java.util.concurrent.ConcurrentSkipListSet;
 
 public class MainConfig extends SimpleConfiguration {
-    @Getter @Setter
+    @Getter
+    @Setter
     private static ConcurrentSkipListSet<WorldAction> worldActions;
 
     public MainConfig() {

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09ffe75c-01fe-4feb-9dae-9fd3bdebfc53" name="Changes" comment="update: api">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="09ffe75c-01fe-4feb-9dae-9fd3bdebfc53" name="Changes" comment="update: gitingore">
+      <change afterPath="$PROJECT_DIR$/impl/MythicDungeons.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,12 +54,12 @@
     &quot;assignee&quot;: &quot;MrDrakify&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Streamline-Essentials/MVInvExtras.git",
-    "accountId": "b9952c05-e03e-4201-9d5b-afd692b6f8f1"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Streamline-Essentials/MVInvExtras.git&quot;,
+    &quot;accountId&quot;: &quot;b9952c05-e03e-4201-9d5b-afd692b6f8f1&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -86,7 +86,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "semeru-11",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/OneDrive/Development/Java/Streamline/Modules/ProxProtect",
+    "last_opened_file_path": "C:/OneDrive/Development/Java/Streamline/Modules/MVInvExtras/impl",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -176,7 +176,39 @@
       <option name="project" value="LOCAL" />
       <updated>1742181163550</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update: deps">
+      <option name="closed" value="true" />
+      <created>1742531708955</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742531708955</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update: gitingore">
+      <option name="closed" value="true" />
+      <created>1742531731433</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742531731433</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update: gitingore">
+      <option name="closed" value="true" />
+      <created>1742531747634</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742531747634</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update: gitingore">
+      <option name="closed" value="true" />
+      <created>1742531771231</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742531771231</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +229,9 @@
     <MESSAGE value="Init." />
     <MESSAGE value="Works." />
     <MESSAGE value="update: api" />
-    <option name="LAST_COMMIT_MESSAGE" value="update: api" />
+    <MESSAGE value="update: deps" />
+    <MESSAGE value="update: gitingore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: gitingore" />
   </component>
   <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
     <option name="sizePresets">

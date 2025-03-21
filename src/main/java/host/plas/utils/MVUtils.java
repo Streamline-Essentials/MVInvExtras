@@ -5,11 +5,10 @@ import com.onarandombox.MultiverseCore.api.MultiverseWorld;
 import com.onarandombox.multiverseinventories.MultiverseInventories;
 import com.onarandombox.multiverseinventories.WorldGroup;
 import host.plas.configs.MainConfig;
-import net.playavalon.mythicdungeons.dungeons.Dungeon;
 import net.playavalon.mythicdungeons.dungeons.Instance;
-import net.streamline.api.utils.MessageUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.World;
+import singularity.utils.MessageUtils;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 

@@ -2,9 +2,9 @@ package host.plas.commands;
 
 import host.plas.MVInvExtras;
 import host.plas.configs.MainConfig;
-import net.streamline.api.command.ModuleCommand;
-import net.streamline.api.command.StreamlineCommand;
-import net.streamline.api.command.context.CommandContext;
+import singularity.command.CosmicCommand;
+import singularity.command.ModuleCommand;
+import singularity.command.context.CommandContext;
 
 public class ReloadCommand extends ModuleCommand {
     public ReloadCommand() {
@@ -12,7 +12,7 @@ public class ReloadCommand extends ModuleCommand {
     }
 
     @Override
-    public void run(CommandContext<StreamlineCommand> context) {
+    public void run(CommandContext<CosmicCommand> context) {
         context.sendMessage("&eReloading &a" + MainConfig.getWorldActions().size() + " &eworld actions&8...");
 
         MVInvExtras.getExampleConfig().reloadConfig();
