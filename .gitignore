@@ -44,4 +44,4 @@ bin/
 
 /.fastRequest/
 
-/impl/MythicDungeons.jar
+**/MythicDungeons.jar
